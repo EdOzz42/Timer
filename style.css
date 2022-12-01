@@ -1,0 +1,34 @@
+body {
+    margin: 0px;
+    background-color: rgb(80, 80, 80);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-image: linear-gradient(to right, rgb(255, 123, 0), yellow);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.content {
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-size: 36pt;
+    background-image: linear-gradient(to left, rgb(255, 123, 0), yellow);
+    border: 5px solid gray;
+    margin-top: 45px;
+    padding: 40px;
+}
+
+span {
+    font-size: 60%;
+}
+
+input {
+    font-size: 25px;
+    border-radius: 5px;
+    border: 3px solid yellow;
+}
