@@ -1,34 +1,80 @@
 body {
     margin: 0px;
-    background-color: rgb(80, 80, 80);
+    background-color: #252b31;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
-    background-image: linear-gradient(to right, rgb(255, 123, 0), yellow);
+    background-image: linear-gradient(22deg , #FFD08A, #E18D0F);
+    font-size: 16pt;
     padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
 }
 
 .content {
-    max-width: 800px;
+    max-width: 700px;
     min-width: 300px;
     margin: auto;
     text-align: center;
     font-size: 36pt;
-    background-image: linear-gradient(to left, rgb(255, 123, 0), yellow);
-    border: 5px solid gray;
+    background-color: #F7AC3B;
+    border: 8px solid #145292;
+    border-radius: 5px;
     margin-top: 45px;
     padding: 40px;
 }
 
-span {
+.miliseconds {
     font-size: 60%;
 }
 
 input {
+    height: 160px;
+    width: 160px;
     font-size: 25px;
     border-radius: 5px;
-    border: 3px solid yellow;
+    border: 5px solid #145292;
+}
+
+.start:hover {
+    border: 5px solid rgb(61, 210, 61);
+    background-image: url(images/play_icon.png);
+    background-size: contain;
+    background-color: rgb(53, 145, 53);
+    color: white;
+    font-weight: 700;
+}
+
+.clean:hover {
+    border: 5px solid rgb(255, 255, 255);
+    background-image: url(images/clean_icon.png);
+    background-size: contain;
+    background-color: rgb(190, 190, 190);
+    color: rgb(43, 43, 43);  
+    font-weight: 700;
+}
+
+.pause:hover {
+    border: 5px solid rgb(233, 121, 121);
+    background-image: url(images/pause_icon.png);
+    background-size: contain;
+    background-position: 5px;
+    background-color: rgb(186, 40, 40) ;
+    color: white;    
+    font-weight: 700; 
+}
+
+.footer {
+    text-align: center;
+    color: #F7AC3B;
+    font-size: 16pt;
+}
+
+.link {
+    border:4px solid #145292;
+    border-radius: 5px;
+    background-color: #14539250;
+    text-decoration: none;
+    color: white;
 }

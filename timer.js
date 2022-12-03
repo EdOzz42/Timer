@@ -39,11 +39,15 @@ function timer(){
         min = 0
     }
 
-    divTime.innerHTML = `${twoNumbers(hours)}:${twoNumbers(min)}:${twoNumbers(sec)}<span>.${miliSec}</span>`
-    
+    divTime.innerHTML = `${twoNumbers(hours)}:${twoNumbers(min)}:${twoNumbers(sec)}<span class="miliseconds">.${miliSec}</span>`
 }
 
 function start() {
+    clearInterval(determinadoTime)
+    miliSec = 0
+    sec = 0
+    min = 0
+    hours = 0
     determinadoTime = setInterval(timer, 10)
 }
 
@@ -53,8 +57,7 @@ function clear() {
     sec = 0
     min = 0
     hours = 0
-    divTime.innerHTML = '00:00:00<span>.00</span>'
-
+    divTime.innerHTML = '00:00:00<span class="miliseconds">.00</span>'
 }
 
 function pause() {
