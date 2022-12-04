@@ -1,2 +1,3 @@
 # Timer
- Avestruz
+
+Um cronômetro. Você pode dar play, pausar e limpar
