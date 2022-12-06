@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     background-color: #252b31;
-    font: 1.50em Arial, Helvetica, sans-serif;
+    font: 1.25em Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -14,9 +14,9 @@ body {
 
 .content {
     max-width: 700px;
-    min-width: 250px;
+    min-width: 200px;
     margin: auto;
-    font-size: 2.75em;
+    font-size: 2.50em;
     text-align: center;
     background-color: #ffc164;
     border: 8px solid #145292;
