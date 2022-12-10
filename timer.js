@@ -48,17 +48,12 @@ function timer(){
         min = 0
     }
 
-    divTime.innerHTML = `${twoNumbers(hours)}:${twoNumbers(min)}:${twoNumbers(sec)}<span class="miliseconds">.${miliSec}</span>`
+    divTime.innerHTML = `${twoNumbers(hours)}:${twoNumbers(min)}:${twoNumbers(sec)}<span class="miliseconds">.${twoNumbers(miliSec)}</span>`
 }
 
 function start() {
     // Função que vai dar inicio a contagem
-    // Reset
     clearInterval(determinadoTime)
-    miliSec = 0
-    sec = 0
-    min = 0
-    hours = 0
     // Intervalo de tempo (10 milisegundos) => Executar => Função 'timer'
     determinadoTime = setInterval(timer, 10)
 }

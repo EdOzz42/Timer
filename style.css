@@ -30,7 +30,7 @@ body {
 }
 
 .miliseconds {
-    font-size: 0.60em
+    font-size: 0.60em;
 }
 
 input {
@@ -39,6 +39,7 @@ input {
     font-size: 0.4em;
     border-radius: 5px;
     border: 5px solid #145292;
+    margin-bottom: 5px;
 }
 
 input:hover {
@@ -46,6 +47,7 @@ input:hover {
     font-weight: bold;
     background-size: contain;
     cursor: pointer;
+    transition-duration: .35s;
 }
 
 .start:hover {
@@ -58,13 +60,13 @@ input:hover {
     border: 5px solid rgb(255, 255, 255);
     background-image: url(images/clean_icon.png);
     background-color: rgb(190, 190, 190);
-    color: rgb(43, 43, 43);  
+    color: rgb(43, 43, 43);
 }
 
 .pause:hover {
     border: 5px solid rgb(233, 121, 121);
     background-image: url(images/pause_icon.png);
-    background-color: rgb(186, 40, 40) ;
+    background-color: rgb(186, 40, 40);
 }
 
 .footer {
@@ -79,4 +81,12 @@ input:hover {
     background-color: #14539250;
     text-decoration: none;
     color: white;
+    transition-duration: .30s
+}
+.link:hover {
+    background-color: #145292;
+
+}
+.link:active {
+    background-color: #1a78d6;
 }
